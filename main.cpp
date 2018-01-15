@@ -22,7 +22,9 @@ int main(){
   
   double t0 = 0;  // initial time
   double dt = 0.0001;  // time step in years
-  double T = 2;   // time endpoint in years (~ 4 mercury years)
+  double T;   // time endpoint in years
+  cout << "Total run time is: ";
+  cin >> T			
 
   int n;         // number of steps
   n = T / dt + 1;
