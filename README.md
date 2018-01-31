@@ -5,5 +5,7 @@ We examine the precession of Mercury's perihelion under the effects of General R
 
 ## Program Compilation
 To use the program for the simulation of the planet orbit, download the files using:
-``` git clone https://github.com/christosvlahos/Precession-of-Mercury-s-Perihelion ```
+```
+git clone https://github.com/christosvlahos/Precession-of-Mercury-s-Perihelion
+```
 To compile it, run ```make``` in your terminal and it'll create an executable named mercury.
