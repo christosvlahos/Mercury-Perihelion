@@ -12,5 +12,8 @@ To compile it, run ```make``` in your terminal and it'll create an executable na
 Finally run ```./mercury``` to run the simulation. The ```main.cpp``` file uses the data structures containing position and velocity in x and y direction and the functions defined in ```functions.cpp``` and ```fun.h```.
 <br />
 To get the results 5 input parameters are needed:
-1. GR correction parameter value
-2.
+1. Eccentricity value
+2. Total simulation time in years
+3. GR correction parameter value
+4. Name of file to store coordinates of the orbit and times
+5. Name of file to store precession angles and their times
