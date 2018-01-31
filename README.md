@@ -8,6 +8,7 @@ To use the program for the simulation of the planet orbit, download the files us
 ```
 git clone https://github.com/christosvlahos/Precession-of-Mercury-s-Perihelion
 ```
+The main feature of the code is the implementation of RK4 solver. In the ```functions.cpp``` file we define the calculation of the 4 points that will be used later in the ```main.cpp``` for the calculation in every iteration. 
 To compile it, run ```make``` in your terminal and it'll create an executable named ```mercury```.
 Finally run ```./mercury``` to run the simulation. The ```main.cpp``` file uses the data structures containing position and velocity in x and y direction and the functions defined in ```functions.cpp``` and ```fun.h```.
 <br />
@@ -22,3 +23,5 @@ Note that although the program creates separate files for different set of param
 ```
 paste -d ',' name1.csv ... namex.csv > final.csv
 ```
+## Future Work
+Although the problem of Mercury's perihelion is solved, computationally we could add some more features like comparing different equation solvers (another good choice would be Euler-Cromer method). Furthermore we play with some of the constants and explore how GR would affect different 2-body systems.
