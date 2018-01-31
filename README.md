@@ -17,3 +17,9 @@ To get the results 5 input parameters are needed:
 3. GR correction parameter value
 4. Name of file to store coordinates of the orbit and times
 5. Name of file to store precession angles and their times
+
+<br />
+Note that although the program creates separate files for different set of parameters in the Jupyter notebook ```Perihelion.ipynb``` used for the statistical analysis of the results we have already merged the files into one to avoid repeating the same procedure too many times. The way to do it for ```.csv``` files is to run in the command line 
+```
+paste -d ',' name1.csv ... namex.csv > final.csv
+```
